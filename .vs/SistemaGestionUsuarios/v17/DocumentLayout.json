@@ -1,0 +1,324 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\VS\\SistemaGestionUsuarios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|solutionrelative:sistemagestionusuarios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADEE341-2DB1-46C4-A75E-B94FD3B726A6}|SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarioswebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3ADEE341-2DB1-46C4-A75E-B94FD3B726A6}|SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.csproj|solutionrelative:sistemagestionusuarioswebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADEE341-2DB1-46C4-A75E-B94FD3B726A6}|SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarioswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADEE341-2DB1-46C4-A75E-B94FD3B726A6}|SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.csproj|solutionrelative:sistemagestionusuarioswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|solutionrelative:sistemagestionusuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADEE341-2DB1-46C4-A75E-B94FD3B726A6}|SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarioswebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ADEE341-2DB1-46C4-A75E-B94FD3B726A6}|SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.csproj|solutionrelative:sistemagestionusuarioswebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADEE341-2DB1-46C4-A75E-B94FD3B726A6}|SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarioswebapi\\sistemagestionusuarioswebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3ADEE341-2DB1-46C4-A75E-B94FD3B726A6}|SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.csproj|solutionrelative:sistemagestionusuarioswebapi\\sistemagestionusuarioswebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarios\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|solutionrelative:sistemagestionusuarios\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarios\\data\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|solutionrelative:sistemagestionusuarios\\data\\modelcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarios\\sistemagestionusuarios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|solutionrelative:sistemagestionusuarios\\sistemagestionusuarios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarios\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|solutionrelative:sistemagestionusuarios\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarios\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|solutionrelative:sistemagestionusuarios\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarios\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|solutionrelative:sistemagestionusuarios\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarios\\models\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|solutionrelative:sistemagestionusuarios\\models\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarios\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|solutionrelative:sistemagestionusuarios\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarios\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|solutionrelative:sistemagestionusuarios\\models\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarios\\models\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|solutionrelative:sistemagestionusuarios\\models\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarios\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|solutionrelative:sistemagestionusuarios\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ADEE341-2DB1-46C4-A75E-B94FD3B726A6}|SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarioswebapi\\sistemagestionusuarioswebapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3ADEE341-2DB1-46C4-A75E-B94FD3B726A6}|SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.csproj|solutionrelative:sistemagestionusuarioswebapi\\sistemagestionusuarioswebapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|f:\\vs\\sistemagestionusuarios\\sistemagestionusuarios\\sistemagestionusuarios.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{301688F4-343D-4090-9343-9DB5B7EBE15F}|SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj|solutionrelative:sistemagestionusuarios\\sistemagestionusuarios.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuariosWebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SistemaGestionUsuariosWebApi\\Controllers\\UserController.cs",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuariosWebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "SistemaGestionUsuariosWebApi\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAO4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T05:32:22.566Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\appsettings.json",
+              "RelativeDocumentMoniker": "SistemaGestionUsuarios\\appsettings.json",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\appsettings.json",
+              "RelativeToolTip": "SistemaGestionUsuarios\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-13T00:26:12.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuariosWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaGestionUsuariosWebApi\\Program.cs",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuariosWebApi\\Program.cs",
+              "RelativeToolTip": "SistemaGestionUsuariosWebApi\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T22:11:09.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuariosWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "SistemaGestionUsuariosWebApi\\appsettings.json",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuariosWebApi\\appsettings.json",
+              "RelativeToolTip": "SistemaGestionUsuariosWebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-12T23:13:11.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SistemaGestionUsuarios.csproj",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj",
+              "RelativeDocumentMoniker": "SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj",
+              "RelativeToolTip": "SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-12T17:42:24.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SistemaGestionUsuarios\\Views\\User\\Edit.cshtml",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "SistemaGestionUsuarios\\Views\\User\\Edit.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T16:53:02.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "SistemaGestionUsuarios\\Views\\User\\Create.cshtml",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "SistemaGestionUsuarios\\Views\\User\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T15:38:03.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaGestionUsuarios\\Program.cs",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Program.cs",
+              "RelativeToolTip": "SistemaGestionUsuarios\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T21:31:43.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SistemaGestionUsuariosWebApi.http",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.http",
+              "RelativeDocumentMoniker": "SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.http",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.http",
+              "RelativeToolTip": "SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-04-12T23:13:27.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaGestionUsuarios\\Views\\User\\Index.cshtml",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "SistemaGestionUsuarios\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAkwCkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T15:37:35.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ModelContext.cs",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Data\\ModelContext.cs",
+              "RelativeDocumentMoniker": "SistemaGestionUsuarios\\Data\\ModelContext.cs",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Data\\ModelContext.cs",
+              "RelativeToolTip": "SistemaGestionUsuarios\\Data\\ModelContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T08:57:12.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "SistemaGestionUsuarios\\Controllers\\UserController.cs",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Controllers\\UserController.cs",
+              "RelativeToolTip": "SistemaGestionUsuarios\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAswNcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T05:35:07.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Views\\User\\Delete.cshtml",
+              "RelativeDocumentMoniker": "SistemaGestionUsuarios\\Views\\User\\Delete.cshtml",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Views\\User\\Delete.cshtml",
+              "RelativeToolTip": "SistemaGestionUsuarios\\Views\\User\\Delete.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T16:54:03.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SistemaGestionUsuarios",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj",
+              "RelativeDocumentMoniker": "SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj",
+              "RelativeToolTip": "SistemaGestionUsuarios\\SistemaGestionUsuarios.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-12T08:37:23.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Models\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "SistemaGestionUsuarios\\Models\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Models\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "SistemaGestionUsuarios\\Models\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T08:07:02.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Models\\Repository\\UserRepository.cs",
+              "RelativeDocumentMoniker": "SistemaGestionUsuarios\\Models\\Repository\\UserRepository.cs",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Models\\Repository\\UserRepository.cs",
+              "RelativeToolTip": "SistemaGestionUsuarios\\Models\\Repository\\UserRepository.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T07:10:35.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Models\\DTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "SistemaGestionUsuarios\\Models\\DTO\\UserDto.cs",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Models\\DTO\\UserDto.cs",
+              "RelativeToolTip": "SistemaGestionUsuarios\\Models\\DTO\\UserDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T09:02:17.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SistemaGestionUsuariosWebApi",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.csproj",
+              "RelativeDocumentMoniker": "SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.csproj",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.csproj",
+              "RelativeToolTip": "SistemaGestionUsuariosWebApi\\SistemaGestionUsuariosWebApi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-12T08:50:16.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SistemaGestionUsuarios\\Models\\User.cs",
+              "ToolTip": "F:\\VS\\SistemaGestionUsuarios\\SistemaGestionUsuarios\\Models\\User.cs",
+              "RelativeToolTip": "SistemaGestionUsuarios\\Models\\User.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T08:59:47.612Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

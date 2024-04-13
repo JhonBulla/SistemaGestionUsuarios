@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SistemaGestionUsuariosWebApi</name>
+    </assembly>
+    <members>
+        <member name="T:SistemaGestionUsuariosWebApi.Controllers.UserController">
+            <summary>
+            Representa el controlador de acciones para gestionar usuarios desde web api
+            </summary>
+        </member>
+        <member name="F:SistemaGestionUsuariosWebApi.Controllers.UserController.userRepository">
+            <summary>
+            Instancia de acceso al repositorio de datos para la entidad User
+            </summary>
+        </member>
+        <member name="M:SistemaGestionUsuariosWebApi.Controllers.UserController.#ctor(SistemaGestionUsuarios.Models.Interfaces.IUserRepository)">
+            <summary>
+            Constructor que inicializa una nueva instancia de UserController.
+            </summary>
+            <param name="userRepository">Instancia de acceso al repositorio de usuarios</param>
+        </member>
+        <member name="M:SistemaGestionUsuariosWebApi.Controllers.UserController.GetUsers">
+            <summary>
+            Metodo GET que obtiene todos los usuarios.
+            </summary>
+            <remarks>
+            Devuelve una lista de todos los usuarios disponibles en el sistema.
+            </remarks>
+            <returns>
+            Un objeto IActionResult que representa la respuesta HTTP.
+            Si la operación se realiza correctamente, devuelve un código de estado 200 (OK) con la lista de usuarios en el cuerpo de la respuesta.
+            Si el usuario no se encuentra, devuelve un código de estado 404 (No encontrado) con un mensaje de error en el cuerpo de la respuesta.
+            Si se produce un error durante la operación, devuelve un código de estado 500 (Error interno del servidor) con un mensaje de error en el cuerpo de la respuesta.
+            </returns>
+        </member>
+        <member name="M:SistemaGestionUsuariosWebApi.Controllers.UserController.GetUserById(System.Int32)">
+            <summary>
+            Metodo GET que obtiene a un usuario por el Id.
+            </summary>
+            <remarks>
+            Devuelve la informacion de un usuario del sistema.
+            </remarks>
+            <returns>
+            Un objeto IActionResult que representa la respuesta HTTP.
+            Si la operación se realiza correctamente, devuelve un código de estado 200 (OK) con la informacion del usuario en el cuerpo de la respuesta.
+            Si el usuario no se encuentra, devuelve un código de estado 404 (No encontrado) con un mensaje de error en el cuerpo de la respuesta.
+            Si se produce un error durante la operación, devuelve un código de estado 500 (Error interno del servidor) con un mensaje de error en el cuerpo de la respuesta.
+            </returns>
+        </member>
+        <member name="M:SistemaGestionUsuariosWebApi.Controllers.UserController.CreateUser(SistemaGestionUsuarios.Models.DTO.UserDto)">
+            <summary>
+            Metodo POST para la creacion de un usuario nuevo.
+            </summary>
+            <remarks>
+            Este método permite crear un usuario nuevo en el sistema.
+            </remarks>
+            <param name="userDto">Los datos del usuario a crear.</param>
+            <returns>
+            Un objeto IActionResult que representa la respuesta HTTP.
+            Si la operación se realiza correctamente, devuelve un código de estado 200 (OK) con un mensaje de éxito en el cuerpo de la respuesta.
+            Si se produce un error durante la operación, devuelve un código de estado 500 (Error interno del servidor) con un mensaje de error en el cuerpo de la respuesta.
+            </returns>
+        </member>
+        <member name="M:SistemaGestionUsuariosWebApi.Controllers.UserController.EditUser(System.Int32,SistemaGestionUsuarios.Models.DTO.UserDto)">
+            <summary>
+            Metodo PUT que actualiza la información de un usuario existente.
+            </summary>
+            <remarks>
+            Este método actualiza la información de un usuario existente en el sistema.
+            </remarks>
+            <param name="Id">El identificador único del usuario que se desea actualizar.</param>
+            <param name="userDto">Los datos actualizados del usuario.</param>
+            <returns>
+            Un objeto IActionResult que representa la respuesta HTTP.
+            Si la operación se realiza correctamente, devuelve un código de estado 200 (OK) con un mensaje de éxito en el cuerpo de la respuesta.
+            Si el usuario no se encuentra, devuelve un código de estado 404 (No encontrado) con un mensaje de error en el cuerpo de la respuesta.
+            Si se produce un error durante la operación, devuelve un código de estado 500 (Error interno del servidor) con un mensaje de error en el cuerpo de la respuesta.
+            </returns>
+        </member>
+        <member name="M:SistemaGestionUsuariosWebApi.Controllers.UserController.DeleteUser(System.Int32)">
+            <summary>
+            Metodo DELETE que elimina un usuario existente.
+            </summary>
+            <remarks>
+            Este método elimina un usuario existente en el sistema.
+            </remarks>
+            <param name="Id">El identificador único del usuario que se desea eliminar.</param>
+            <returns>
+            Un objeto IActionResult que representa la respuesta HTTP.
+            Si la operación se realiza correctamente, devuelve un código de estado 200 (OK) con un mensaje de éxito en el cuerpo de la respuesta.
+            Si el usuario no se encuentra, devuelve un código de estado 404 (No encontrado) con un mensaje de error en el cuerpo de la respuesta.
+            Si se produce un error durante la operación, devuelve un código de estado 500 (Error interno del servidor) con un mensaje de error en el cuerpo de la respuesta.
+            </returns>
+        </member>
+    </members>
+</doc>

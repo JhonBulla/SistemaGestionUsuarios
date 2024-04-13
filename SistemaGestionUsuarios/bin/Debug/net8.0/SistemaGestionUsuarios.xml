@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SistemaGestionUsuarios</name>
+    </assembly>
+    <members>
+        <member name="T:SistemaGestionUsuarios.Controllers.UserController">
+            <summary>
+            Representa el controlador de acciones para gestionar usuarios
+            </summary>
+        </member>
+        <member name="F:SistemaGestionUsuarios.Controllers.UserController.userRepository">
+            <summary>
+            Instancia de acceso al repositorio de datos para la entidad User
+            </summary>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Controllers.UserController.#ctor(SistemaGestionUsuarios.Models.Interfaces.IUserRepository)">
+            <summary>
+            Constructor que inicializa una nueva instancia de UserController.
+            </summary>
+            <param name="userRepository">Instancia de acceso al repositorio de usuarios</param>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Controllers.UserController.Index">
+            <summary>
+            Acción que devuelve la vista principal de usuarios.
+            </summary>
+            <remarks>
+            Esta acción obtiene todos los usuarios del repositorio de usuarios,
+            los convierte en objetos UserDto y los envía a la vista principal para su visualización.
+            </remarks>
+            <returns>La vista principal de usuarios con la lista de usuarios a traves de UserDto.</returns>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Controllers.UserController.Create">
+            <summary>
+            Acción GET para mostrar el formulario de creación de un nuevo usuario.
+            </summary>
+            <remarks>
+            Esta acción se utiliza para mostrar el formulario de creación de un nuevo usuario.
+            </remarks>
+            <returns>La vista de formulario de creación de usuario.</returns>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Controllers.UserController.Create(SistemaGestionUsuarios.Models.DTO.UserDto)">
+            <summary>
+            Acción HTTP POST para agregar un nuevo usuario.
+            </summary>
+            <remarks>
+            Esta acción se utiliza para procesar la solicitud de agregar un nuevo usuario al sistema.
+            Se espera que el modelo de datos enviado desde el formulario sea válido y que cumpla con las reglas de validación definidas en el modelo UserDto.
+            Se utiliza el atributo [ValidateAntiForgeryToken] para proteger la acción contra ataques de falsificación de solicitudes entre sitios (CSRF).
+            Si la creación del usuario se realiza correctamente, la acción redirecciona a la vista principal de usuarios.
+            Si la creación del usuario no se realiza correctamente, se muestra un mensaje de error en la vista de formulario de agregar usuario.
+            </remarks>
+            <param name="userDto">Objeto UserDto que contiene los datos del nuevo usuario.</param>
+            <returns>
+            Si la creación del usuario se realiza correctamente, la acción redirecciona a la vista principal de usuarios.
+            Si la creación del usuario no se realiza correctamente, se devuelve la vista de formulario de agregar usuario con un mensaje de error.
+            </returns>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Controllers.UserController.Edit(System.Int32)">
+            <summary>
+            Acción GET para mostrar el formulario de actualización de usuario.
+            </summary>
+            <remarks>
+            Esta acción se utiliza para mostrar el formulario de actualización de usuario, donde los usuarios pueden editar la información de un usuario específico.
+            Se espera que el parámetro 'iduser' represente el identificador único del usuario que se desea actualizar.
+            Si no se encuentra ningún usuario con el ID proporcionado, la acción devuelve un resultado HTTP 404 (Not Found).
+            </remarks>
+            <param name="Id">El identificador único del usuario que se desea actualizar.</param>
+            <returns>
+            Si se encuentra el usuario con el ID proporcionado, la acción devuelve la vista de formulario de actualización de usuario con los datos del usuario cargados.
+            Si no se encuentra ningún usuario con el ID proporcionado, la acción devuelve un resultado HTTP 404 (Not Found).
+            </returns>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Controllers.UserController.Edit(SistemaGestionUsuarios.Models.DTO.UserDto)">
+            <summary>
+            Acción HTTP POST para actualizar la información de un usuario.
+            </summary>
+            <remarks>
+            Esta acción se utiliza para procesar la solicitud de actualización de la información de un usuario en el sistema.
+            Se espera que el modelo de datos enviado desde el formulario sea válido y que cumpla con las reglas de validación definidas en el modelo UserDto.
+            Se utiliza el atributo [ValidateAntiForgeryToken] para proteger la acción contra ataques de falsificación de solicitudes entre sitios (CSRF).
+            Si la actualización del usuario se realiza correctamente, la acción redirecciona a la vista principal de usuarios.
+            Si la actualización del usuario no se realiza correctamente, se muestra un mensaje de error en la vista de formulario de actualización de usuario.
+            </remarks>
+            <param name="userDto">Objeto UserDto que contiene los datos actualizados del usuario.</param>
+            <returns>
+            Si la actualización del usuario se realiza correctamente, la acción redirecciona a la vista principal de usuarios.
+            Si la actualización del usuario no se realiza correctamente, se devuelve la vista de formulario de actualización de usuario con un mensaje de error.
+            </returns>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Controllers.UserController.Delete(System.Int32)">
+            <summary>
+            Acción GET para mostrar el formulario de eliminación de un usuario.
+            </summary>
+            <remarks>
+            Esta acción se utiliza para mostrar el formulario de confirmación de eliminación de un usuario específico.
+            Si no se encuentra ningún usuario con el ID proporcionado, la acción devuelve un resultado HTTP 404 (Not Found).
+            </remarks>
+            <param name="Id">El identificador único del usuario que se desea eliminar.</param>
+            <returns>
+            Si se encuentra el usuario con el ID proporcionado, la acción devuelve la vista de formulario de confirmación de eliminación de usuario con los datos del usuario cargados.
+            Si no se encuentra ningún usuario con el ID proporcionado, la acción devuelve un resultado HTTP 404 (Not Found).
+            </returns>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Controllers.UserController.DeleteConfirm(System.Int32)">
+            <summary>
+            Acción HTTP POST para eliminar un usuario existente.
+            </summary>
+            <remarks>
+            Esta acción se utiliza para procesar la solicitud de eliminación de un usuario existente en el sistema.
+            Se espera que el parámetro 'idUser' represente el identificador único del usuario que se desea eliminar.
+            Se utiliza el atributo [ValidateAntiForgeryToken] para proteger la acción contra ataques de falsificación de solicitudes entre sitios (CSRF).
+            Si la eliminación del usuario se realiza correctamente, la acción redirecciona a la vista principal de usuarios.
+            Si la eliminación del usuario no se realiza correctamente, se muestra un mensaje de error en la vista de la acción actual.
+            </remarks>
+            <param name="Id">El identificador único del usuario que se desea eliminar.</param>
+            <returns>
+            Si la eliminación del usuario se realiza correctamente, la acción redirecciona a la vista principal de usuarios.
+            Si la eliminación del usuario no se realiza correctamente, se devuelve la vista de la acción actual con un mensaje de error.
+            </returns>
+        </member>
+        <member name="T:SistemaGestionUsuarios.Data.ModelContext">
+            <summary>
+            Contexto de base de datos para el sistema de gestión de usuarios.
+            </summary>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Data.ModelContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{SistemaGestionUsuarios.Data.ModelContext})">
+            <summary>
+            Constructor de la clase ModelContext.
+            </summary>
+            <param name="options">Opciones de configuración del contexto de base de datos.</param>
+        </member>
+        <member name="P:SistemaGestionUsuarios.Data.ModelContext.Users">
+            <summary>
+            Conjunto de entidades de usuarios en la base de datos.
+            </summary>
+        </member>
+        <member name="P:SistemaGestionUsuarios.Data.ModelContext.UserDto">
+            <summary>
+            Representa el conjunto de entidades de tipo UserDto en el contexto de la base de datos.
+            </summary>
+        </member>
+        <member name="T:SistemaGestionUsuarios.Models.DTO.UserDto">
+            <summary>
+            Clase que representa un objeto de transferencia de datos (DTO) para un usuario.
+            </summary>
+        </member>
+        <member name="P:SistemaGestionUsuarios.Models.DTO.UserDto.Id">
+            <summary>
+            Identificador único del usuario.
+            </summary>
+        </member>
+        <member name="P:SistemaGestionUsuarios.Models.DTO.UserDto.Name">
+            <summary>
+            Nombre del usuario.
+            </summary>
+        </member>
+        <member name="P:SistemaGestionUsuarios.Models.DTO.UserDto.Email">
+            <summary>
+            Correo electrónico del usuario.
+            </summary>
+        </member>
+        <member name="P:SistemaGestionUsuarios.Models.DTO.UserDto.Password">
+            <summary>
+            Contraseña del usuario.
+            </summary>
+        </member>
+        <member name="T:SistemaGestionUsuarios.Models.Interfaces.IUserRepository">
+            <summary>
+            Interfaz que define las operaciones disponibles para acceder y manipular los datos de usuarios en el repositorio.
+            </summary>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Models.Interfaces.IUserRepository.GetUsers">
+            <summary>
+            Obtiene una lista de todos los usuarios en la base de datos.
+            </summary>
+            <returns>Lista de usuarios de la base de datos.</returns>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Models.Interfaces.IUserRepository.GetUserById(System.Int32)">
+            <summary>
+            Obtiene un usuario de la base de datos por el Id.
+            </summary>
+            <returns>Usuario de la base de datos.</returns>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Models.Interfaces.IUserRepository.AddUser(SistemaGestionUsuarios.Models.User)">
+            <summary>
+            Agrega a un nuevo usuario en la base de datos.
+            </summary>
+            <param name="userdata">Objeto con la informacion del usuario</param>
+            <returns><c>True</c> si realiza la insercion de forma exitosa</returns>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Models.Interfaces.IUserRepository.UpdateUser(SistemaGestionUsuarios.Models.User)">
+            <summary>
+            Actualiza la informacion de un usuario en la base de datos.
+            </summary>
+            <param name="userdata">Objeto con la informacion del usuario</param>
+            <returns><c>True</c> si realiza la actualizacion de forma exitosa</returns>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Models.Interfaces.IUserRepository.DeleteUser(System.Int32)">
+            <summary>
+            Elimina a un usuario de la base de datos.
+            </summary>
+            <param name="iduser">Identificador del usuario</param>
+            <returns><c>True</c> si realiza la eliminacion de forma exitosa</returns>
+        </member>
+        <member name="T:SistemaGestionUsuarios.Models.Repository.UserRepository">
+            <summary>
+            Gestiona el acceso y la manipulación de los datos de los usuarios en la base de datos.
+            </summary>
+        </member>
+        <member name="F:SistemaGestionUsuarios.Models.Repository.UserRepository.modelContext">
+            <summary>
+            Contexto de la base de datos utilizada.
+            </summary>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Models.Repository.UserRepository.#ctor(SistemaGestionUsuarios.Data.ModelContext)">
+            <summary>
+            Constructor que inicializa una nueva instancia de UserRepository.
+            </summary>
+            <param name="modelContext">Contexto de base de datos.</param>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Models.Repository.UserRepository.GetUsers">
+            <summary>
+            Obtiene una lista de todos los usuarios en la base de datos.
+            </summary>
+            <returns>Lista de usuarios de la base de datos.</returns>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Models.Repository.UserRepository.GetUserById(System.Int32)">
+            <summary>
+            Obtiene un usuario de la base de datos por el Id.
+            </summary>
+            <returns>Usuario de la base de datos.</returns>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Models.Repository.UserRepository.AddUser(SistemaGestionUsuarios.Models.User)">
+            <summary>
+            Agrega a un nuevo usuario en la base de datos.
+            </summary>
+            <param name="userdata">Objeto con la informacion del usuario</param>
+            <returns><c>True</c> si realiza la insercion de forma exitosa</returns>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Models.Repository.UserRepository.UpdateUser(SistemaGestionUsuarios.Models.User)">
+            <summary>
+            Actualiza la informacion de un usuario en la base de datos.
+            </summary>
+            <param name="userdata">Objeto con la informacion del usuario</param>
+            <returns><c>True</c> si realiza la actualizacion de forma exitosa</returns>
+        </member>
+        <member name="M:SistemaGestionUsuarios.Models.Repository.UserRepository.DeleteUser(System.Int32)">
+            <summary>
+            Elimina a un usuario de la base de datos.
+            </summary>
+            <param name="iduser">Identificador del usuario</param>
+            <returns><c>True</c> si realiza la eliminacion de forma exitosa</returns>
+        </member>
+        <member name="T:SistemaGestionUsuarios.Models.User">
+            <summary>
+            Clase que representa la informacion de un usuario en el sistema.
+            </summary>
+        </member>
+        <member name="P:SistemaGestionUsuarios.Models.User.Id">
+            <summary>
+            Identificador único del usuario.
+            </summary>
+        </member>
+        <member name="P:SistemaGestionUsuarios.Models.User.Name">
+            <summary>
+            Nombre del usuario.
+            </summary>
+        </member>
+        <member name="P:SistemaGestionUsuarios.Models.User.Email">
+            <summary>
+            Correo electrónico del usuario.
+            </summary>
+        </member>
+        <member name="P:SistemaGestionUsuarios.Models.User.Password">
+            <summary>
+            Contraseña del usuario.
+            </summary>
+        </member>
+    </members>
+</doc>

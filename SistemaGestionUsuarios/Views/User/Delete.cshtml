@@ -1,0 +1,46 @@
+﻿@model SistemaGestionUsuarios.Models.DTO.UserDto
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+@if (ViewData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @ViewData["ErrorMessage"]
+    </div>
+}
+
+<h1>Eliminar Usuario</h1>
+<br>
+<h3>Esta seguro que desea eliminar al usuario?</h3>
+<div>
+    <h4>Usuario</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Nombre
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            Correo
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            Contraeña
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Password)
+        </dd>
+    </dl>
+
+    <form asp-action="DeleteConfirm" method="post">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Eliminar usuario" class="btn btn-danger" /> |
+        <a asp-action="Index">Regresar al inicio</a>
+    </form>
+</div>
